@@ -1,7 +1,7 @@
 import React, { useState }  from 'react'
 import axios from "axios";
 
-const baseURL = "http://localhost:4024/api/login/autenticar";
+const baseURL = "https://jaded-corn-production.up.railway.app/api/login/autenticar";
 
 const Login = () => {
 

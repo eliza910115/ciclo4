@@ -1,7 +1,7 @@
 import React, { useState }  from 'react'
 import axios from "axios";
 
-const baseURL = "http://localhost:4024/api/ordenes";
+const baseURL = "https://jaded-corn-production.up.railway.app/api/ordenes";
 
 const CrearOrdenes = () => {
 

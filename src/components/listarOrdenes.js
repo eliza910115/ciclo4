@@ -5,7 +5,7 @@ import {Table, Container} from 'react-bootstrap';
 
 const ListarOrdenes = () => {
     const [datos, setDatos] = useState([]);
-    useEffect(() => {axios.get(`http://127.0.0.1:4024/api/ordenes`)
+    useEffect(() => {axios.get(`https://jaded-corn-production.up.railway.app/api/ordenes`)
                     .then(res=> setDatos(res.data));},[]);
    return (
     <Container>
