@@ -1,4 +1,4 @@
-FROM node:12-alpine
+FROM node:latest
 
 WORKDIR /app
 
@@ -6,6 +6,4 @@ COPY . .
 
 RUN yarn install --production
 
-EXPOSE 4024
-
-CMD ["node", "/app/index.js"]
+CMD ["npm", "start"]
